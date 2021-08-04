@@ -163,9 +163,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
     pageAside = <PageSocial />
   }
 
-  if (isRootPage || isBioPage) {
-    pageCover = <HeroHeader className='notion-page-cover' />
-  }
+//   if (isRootPage || isBioPage) {
+//     pageCover = <HeroHeader className='notion-page-cover' />
+//   }
 
   return (
     <TwitterContextProvider
